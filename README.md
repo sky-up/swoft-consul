@@ -12,7 +12,7 @@ Swoft Consul Component
 - composer command
 
 ```bash
-composer require swoft/consul
+composer require swoft-fork/consul
 ```
 
 ## Resources
