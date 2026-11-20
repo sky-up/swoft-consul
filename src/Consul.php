@@ -53,7 +53,7 @@ class Consul
      * @throws ClientException
      * @throws ServerException
      */
-    public function get(string $url = null, array $options = []): Response
+    public function get(?string $url = null, array $options = []): Response
     {
         return $this->request('GET', $url, $options);
     }

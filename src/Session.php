@@ -41,7 +41,7 @@ class Session implements SessionInterface
      * @throws ClientException
      * @throws ServerException
      */
-    public function create(array $body = null, array $options = []): Response
+    public function create(?array $body = null, array $options = []): Response
     {
         $params = [
             'body'  => $body,
